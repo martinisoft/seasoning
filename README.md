@@ -1,12 +1,12 @@
-= Seasoning
+# Seasoning
 
 A Rails 3 generator to season your app.
 
-== Install
+## Install
 
 gem install seasoning
 
-== Usage
+## Usage
 
 Once you install the gem, the generators will be available to any Rails application so long as you add the following to your Gemfile:
 
