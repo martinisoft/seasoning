@@ -1,0 +1,9 @@
+Manifest
+pkg
+doc
+*.gem
+tmp/**/*
+Gemfile.lock
+.bundle
+*.swp
+.DS_Store

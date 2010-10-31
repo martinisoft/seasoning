@@ -1,0 +1,9 @@
+Description:
+    Seasons your app with a little fresh pepper for better security.
+
+Example:
+    rails generate seasoning --devise
+
+    This will update:
+        config/initializers/secret_token.rb
+        config/initializers/devise.rb (optional)
