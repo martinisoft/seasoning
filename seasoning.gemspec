@@ -7,8 +7,12 @@ Gem::Specification.new do |s|
   s.summary     = "Updates your Rails App Pepper for Security"
   s.description = "A Rails 3 generator to update your existing authentication peppers for additional security."
 
-  s.files        = Dir["{lib", "[A-Z]*"]
-  s.require_path = "lib"
+  s.files         = [
+    "README.md",
+    "lib/generators/seasoning/USAGE",
+    "lib/generators/seasoning/seasoning_generator.rb"
+  ]
+  s.require_paths = ["lib"]
 
   s.required_rubygems_version = ">= 1.3.4"
 end

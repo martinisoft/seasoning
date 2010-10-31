@@ -1,5 +1,6 @@
-class SeasoningGenerator < Rails::Generators::Base
-  source_root File.expand_path('../templates', __FILE__)
+require 'rails/generators/base'
+
+class SeasoningGenerator < Rails::Generators::Base #:nodoc:
   require 'active_support/secure_random'
   
   class_option :devise, :type => :boolean, :required => false, :aliases => "-d",
