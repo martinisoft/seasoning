@@ -1,10 +1,8 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
-require "seasoning/version"
 
 Gem::Specification.new do |s|
   s.name        = "seasoning"
-  s.version     = Seasoning::VERSION
+  s.version     = "0.1.1"
   s.authors     = ["Aaron Kalin"]
   s.email       = ["akalin@martinisoftware.com"]
   s.homepage    = "http://github.com/martinisoft/seasoning"
